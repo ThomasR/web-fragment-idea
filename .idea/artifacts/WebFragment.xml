@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="WebFragment">
+    <output-path>$PROJECT_DIR$/target/artifacts/WebFragment</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="archive" name="fragment.jar">
+            <element id="module-output" name="web-fragment" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
