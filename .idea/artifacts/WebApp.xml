@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebApp">
+    <output-path>$PROJECT_DIR$/target/artifacts/WebApp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="WebFragment" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
